@@ -108,8 +108,7 @@ font-weight: 800;}
 	}
 	.hero-cont { 
 
-		width: 1250px;
-		height: 500px;
+		
 	}
 	.header-title { display: flex;
 		align-items: center;
@@ -172,6 +171,8 @@ font-weight: 800;}
 	}
 	
 	.sale-list { display: flex;
+		align-items: center;
+		
 		justify-content: center;
 	}
 	
@@ -183,4 +184,9 @@ font-weight: 800;}
 		color: black;font-weight: 400;
 	}
 
-	.s3{ margin-bottom: 60px;}
+	.s3{ margin-bottom: 60px;
+	}
+
+.sale-li:not(:last-child){
+	margin-right: 26px;
+}
